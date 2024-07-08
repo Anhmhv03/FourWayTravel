@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    object-fit: cover !important;
+}
+
+.container {
+    max-width: 1728px;
+    max-height: 1117px;
+}
+
+.endow {
+    margin-bottom: 70px;
+}
+
+.box-endow {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.endow-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.endow-title .header-endow {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.endow-title .text-endow {
+    font-size: 16px;
+    color: #1A1A1A;
+    margin-bottom: 10px;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .endow .box-endow .box .box-endow_left .box-endow_left-text {
+    width: 294px;
+    margin-left: 10px;
+}
+
+.container .endow .box-endow .box .box-endow_right .box-endow_right-text {
+    width: 294px;
+    margin-left: 10px;
+}
+
+/* start left endow */
+
+.left-text_text p {
+    text-align: justify;
+    width: 66%;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 15px;
+    color: #1A1A1A;
+    margin-left: 10px;
+
+}
+
+.box-endow_left {
+    width: 50%;
+    height: 184px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.image-endow_left {
+    width: 255px;
+    height: 184px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.left-text_header {
+    margin-top: 30px;
+}
+
+.left-text_header h3 {
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.left-text_text {
+    margin-top: 10px;
+}
+
+.btn-endow_left {
+    width: 107px;
+    height: 36px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btn-left {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #5867F2;
+    color: #ffff;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* end left endow */
+
+
+/* start right endow */
+.box-endow_right {
+    position: relative;
+    width: 50%;
+    height: 184px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.box-endow_right-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.image-endow_right {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.box-endow_right-text {
+    position: relative;
+    z-index: 10;
+}
+
+.right-text_header {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.right-text_header h3 {
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.right-text_text {
+    color: #ffff;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.right-text_text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.btn-endow_right {
+    width: 162px;
+    height: 36px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btn-right {
+    width: 100%;
+    height: 100%;
+    color: #ffff;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #5867F2;
+    font-weight: 500;
+    border: none;
+}
+
+/* end right endow */
+
+
+.dot {
+    display: flex;
+    width: 30px;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-15px, 100px);
+    margin-top: 10px;
+}
+
+
+
+.dot-next {
+    background-color: #D9D9D9;
+    width: 8px;
+    height: 8px;
+    border: none;
+    border-radius: 50%;
+}
+
+.next-active {
+    background-color: #5867F2;
+    width: 10px;
+    height: 10px;
+}
+
+.next {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    transform: translateX(20px);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: ease 0.3s;
+}
+
+.next:hover {
+    background-color: #e7e7e7;
+}
+
+.next-element {
+    margin: auto;
+}
+
+
+/* tìm theo loại chỗ nghỉ */
+
+.search-by-type {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.apartment-box {
+    width: 25%;
+}
+
+.box-flex {
+    width: 100%;
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.search-by-type_box h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.image-apartment {
+    width: 100%;
+    height: 210px;
+    border-radius: 10px;
+    border: none;
+}
+
+.type-name {
+    margin-top: 10px;
+}
+
+.evaluate {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
+
+.search-by-type_next {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    transform: translate(20px, 90px);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: ease 0.3s;
+}
+
+.search-by-type_next:hover {
+    background-color: #e7e7e7;
+}
+
+.search_next-element {
+    margin: auto;
+}

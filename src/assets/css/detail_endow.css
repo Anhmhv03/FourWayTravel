@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    object-fit: cover !important;
+}
+
+.container {
+    max-width: 1728px;
+    max-height: 1117px;
+}
+
+.deals {
+    max-width: 1210px;
+    margin: auto;
+}
+
+.boxs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.deals-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box-deals {
+    width: 24%;
+    height: 300px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.box-image {
+    position: relative;
+}
+
+.box-image .picture {
+    width: 100%;
+    height: 155px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.box-image .sales {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    width: 50px;
+    color: #ffffff;
+}
+
+.evaluate {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0px 0px 10px;
+    font-size: 12px;
+    color: #969696;
+}
+
+.dot-endow {
+    display: flex;
+    align-items: center;
+    width: 3px;
+    height: 3px;
+    border: none;
+    border-radius: 50%;
+    background-color: #969696;
+}
+
+.tourist-name {
+    width: 80%;
+    margin: 10px 0px 0px 10px;
+}
+
+.tourist-name a {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+
+.amount-of-money {
+    display: flex;
+    gap: 5px;
+    margin: 40px 0px 0px 10px;
+}
+
+.amount-of-money .light {
+    font-size: 12px;
+}
+
+.amount-of-money .money {
+    font-size: 12px;
+    font-weight: bold;
+}

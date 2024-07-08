@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img,
+picture,
+svg,
+video {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+select,
+textarea {
+	background-color: transparent;
+	outline: none;
+}
+
+.action1 {
+	width: 1240px;
+}
+
+button {
+	cursor: pointer;
+	background-color: transparent;
+	outline: none;
+	border: 0;
+}
+
+body {
+	min-height: 100vh;
+
+	font-size: 16px;
+	line-height: 1;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+	margin: auto;
+}
+
+.action1 h5 {
+	margin: 20px 0px;
+}
+
+.action1 p {
+	margin-bottom: 20px;
+	color: 474747;
+	font-weight: normal;
+}
+
+.selection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.product {
+	border-radius: 7px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.img img {
+	border-radius: 7px 7px 0 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.action1 h5 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.action1 p {
+	font-size: 18px;
+	font-weight: 300;
+	color: rgb(140, 140, 140);
+}
+
+.title {
+	margin: 20px 10px;
+}
+
+.title h5 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.from {
+	font-size: 12px;
+	color: 1A1A1A;
+	margin: 10px;
+}
+
+.feetback {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 2rem;
+	margin: 5px 10px;
+	padding-top: 20px;
+}
+
+.feetback p {
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.feetback_box {
+	background-color: #fa6035;
+	width: 24px;
+	height: 24px;
+	border-radius: 4.3px;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.feetback_box p {
+	color: #ffff;
+	text-align: center;
+	line-height: 24px;
+	margin-bottom: 0;
+}
+
+/* actione2 */
+.center_ct {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+	gap: 1020px;
+}
+
+.center_ct p {
+	font-size: 14px;
+	color: rgb(38, 91, 198);
+	font-weight: bold;
+}

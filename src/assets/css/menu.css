@@ -1,0 +1,52 @@
+:root {
+    /* background color */
+    --bg-color__100: #48B4F0;
+    --bg-color__200: #2eabee;
+    --bg-color__300: #0C91DB;
+    --bg-color__400: #0284ca;
+
+    --bg2-color__100: #FF6D43;
+    --bg2-color__200: #fa6035;
+    --bg2-color__300: rgb(252, 83, 36);
+    --bg2-color__400:rgb(250, 67, 16);
+
+    --bg-color_white__100: #ffffff;
+    --bg-color_white__200: #eceaea;
+    --bg-color_white__300: #d8d8d8;
+    --bg-color_white__400: #c4c2c2;
+
+    /* text color */
+    --text-color__100: #48B4F0;
+    --text-color__200: #2eabee;
+    --text-color__300: #0C91DB;
+    --text-color__400: #0284ca;
+
+    --text2-color__100: #FF6D43;
+    --text2-color__200: #fa6035;
+    --text2-color__300: rgb(252, 83, 36);
+    --text2-color__400:rgb(250, 67, 16);
+
+    --text-color_white__100: #ffffff;
+    --text-color_white__200: #f1f1f1;
+    --text-color_white__300: #e0dede;
+    --text-color_white__400: #d6d5d5;
+
+    --text-color_black__100: #000000;
+    --text-color_black__200: #111111;
+    --text-color_black__300: #222222;
+    --text-color_black__400: #333333;
+}
+
+.custom_menu_hover{
+    color: var(--bg-color_white__100);
+    background-color: var(--bg-color__300);
+    transition: all .3s ease-in-out;
+    border: 1px solid var(--bg-color__300);
+}
+.custom_menu_hover:hover,
+.custom_menu_clicked
+{
+    color: var(--bg-color_white__100);
+    background-color: var(--bg-color__400);
+    border: 1px solid var(--bg-color_white__300);
+}

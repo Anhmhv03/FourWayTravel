@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    /* background color */
+    --bg-color__100: #48B4F0;
+    --bg-color__200: #2eabee;
+    --bg-color__300: #0C91DB;
+    --bg-color__400: #0284ca;
+
+    --bg2-color__100: #FF6D43;
+    --bg2-color__200: #fa6035;
+    --bg2-color__300: rgb(252, 83, 36);
+    --bg2-color__400:rgb(250, 67, 16);
+
+    --bg-color_white__100: #ffffff;
+    --bg-color_white__200: #eceaea;
+    --bg-color_white__300: #d8d8d8;
+    --bg-color_white__400: #c4c2c2;
+
+    /* text color */
+    --text-color__100: #48B4F0;
+    --text-color__200: #2eabee;
+    --text-color__300: #0C91DB;
+    --text-color__400: #0284ca;
+
+    --text2-color__100: #FF6D43;
+    --text2-color__200: #fa6035;
+    --text2-color__300: rgb(252, 83, 36);
+    --text2-color__400:rgb(250, 67, 16);
+
+    --text-color_white__100: #ffffff;
+    --text-color_white__200: #f1f1f1;
+    --text-color_white__300: #e0dede;
+    --text-color_white__400: #d6d5d5;
+
+    --text-color_black__100: #000000;
+    --text-color_black__200: #111111;
+    --text-color_black__300: #222222;
+    --text-color_black__400: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* scrollbar width & height */
+::-webkit-scrollbar {
+    width: 3px;
+    height: 5px; 
+    border-radius: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--bg-color__100);
+    border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    height: 5px;
+    background: var(--bg-color__900);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-corner {
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background: var(--bg-color__500);
+}
+
+/* Background color */
+.custom_bg_color__100 {
+    background-color: var(--bg-color__100);
+}
+
+.custom_bg_color__200 {
+    background-color: var(--bg-color__200);
+}
+
+.custom_bg_color__300 {
+    background-color: var(--bg-color__300);
+}
+.custom_bg_color__400 {
+    background-color: var(--bg-color__400);
+}
+
+
+/* Background color 2*/
+.custom_bg2_color__100 {
+    background-color: var(--bg2-color__100);
+}
+
+.custom_bg2_color__200 {
+    background-color: var(--bg2-color__200);
+}
+
+.custom_bg2_color__300 {
+    background-color: var(--bg2-color__300);
+}
+.custom_bg2_color__400 {
+    background-color: var(--bg2-color__400);
+}
+
+/* Background color white */
+.custom_bg_color_white__100 {
+    background-color: var(--bg-color_white__100);
+}
+
+.custom_bg_color_white__200 {
+    background-color: var(--bg-color_white__200);
+}
+
+.custom_bg_color_white__300 {
+    background-color: var(--bg-color_white__300);
+}
+.custom_bg_color_white__400 {
+    background-color: var(--bg-color_white__400);
+}
+
+
+/* Text color */
+.custom_text_color__100 {
+    color: var(--text-color__100);
+}
+
+.custom_text_color__200 {
+    color: var(--text-color__200);
+}
+
+.custom_text_color__300 {
+    color: var(--text-color__300);
+}
+.custom_text_color__400 {
+    color: var(--text-color__400);
+}
+
+
+/* Text color 2 */
+.custom_text2_color__100 {
+    color: var(--text2-color__100);
+}
+
+.custom_text2_color__200 {
+    color: var(--text2-color__200);
+}
+
+.custom_text2_color__300 {
+    color: var(--text2-color__300);
+}
+.custom_text2_color__400 {
+    color: var(--text2-color__400);
+}
+
+
+/* Text color white */
+.custom_text_color_white__100 {
+    color: var(--text-color_white__100);
+}
+
+.custom_text_color_white__200 {
+    color: var(--text-color_white__200);
+}
+
+.custom_text_color_white__300 {
+    color: var(--text-color_white__300);
+}
+.custom_text_color_white__400 {
+    color: var(--text-color_white__400);
+}
+
+
+/* Text color black */
+.custom_text_color_black__100 {
+    color: var(--text-color_black__100);
+}
+
+.custom_text_color_black__200 {
+    color: var(--text-color_black__200);
+}
+
+.custom_text_color_black__300 {
+    color: var(--text-color_black__300);
+}
+.custom_text_color_black__400 {
+    color: var(--text-color_black__400);
+}
+
